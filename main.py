@@ -1,4 +1,6 @@
-#python main.py --model deeplab --filenames-file C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames\kitti_sample.txt --val-filenames-file C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames\kitti_sample.txt --data-dir C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames --output-dir C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames --epochs 1 --batch-size 16 --cuda-device-ids -2 --eval kitti-gt --test-filenames-file C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames\testfile.txt
+#python main.py --model deeplab --filenames-file \resources\filenames\kitti_sample.txt --val-filenames-file \resources\filenames\kitti_sample.txt 
+#--data-dir \resources\filenames --output-dir \resources\filenames --epochs 1 --batch-size 16 --cuda-device-ids -2 --eval kitti-gt 
+#--test-filenames-file \resources\filenames\testfile.txt
 
 import datetime
 import os
