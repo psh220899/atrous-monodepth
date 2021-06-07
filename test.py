@@ -1,4 +1,4 @@
-#python test.py --test-filenames-file C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames\kitti_stereo_2015_test_files.txt --model deeplab --model-path C:\Users\psh22\Documents\Project\atrous-monodepth\best-model.pth --data-dir C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames --output-dir C:\Users\psh22\Documents\Project\atrous-monodepth\resources\filenames --device cpu
+#python test.py --test-filenames-file \resources\filenames\kitti_stereo_2015_test_files.txt --model deeplab --model-path best-model.pth --data-dir \resources\filenames --output-dir \resources\filenames --device cpu
 
 import argparse
 import logging
