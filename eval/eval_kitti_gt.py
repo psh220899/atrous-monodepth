@@ -17,7 +17,7 @@ class EvaluateKittiGT:
 
     """
 
-    def __init__(self, predicted_disps, gt_path, min_depth=0, max_depth=80):
+    def __init__(self, test_file_path, predicted_disps, gt_path, min_depth=0, max_depth=80):
         """
         Args:
             predicted_disps: (np.ndarray) predicted disparities after training
