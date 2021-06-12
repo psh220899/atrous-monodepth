@@ -207,12 +207,15 @@ def _evaluate_scores(disparities, args):
 
     # Evaluates on the 200 Kitti Stereo 2015 Test Files
     if args.eval == "kitti-gt":
+        '''
         if "kitti_stereo_2015_test_files" not in args.test_filenames_file:
             raise ValueError(
                 "For KITTI GT evaluation, the test set should be 'kitti_stereo_2015_test_files.txt'"
             )
+            '''
         result = EvaluateKittiGT(
             predicted_disps=disparities,
+            test_file_path=args.test_filenames_file,
             gt_path=args.data_dir,
             min_depth=0,
             max_depth=80,
